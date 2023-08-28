@@ -5,7 +5,7 @@
 Contains files necessary to run SWM with a large ensemble. Allows for saving across multiple netCDF files.
 Initiatialise, then begin with data assimilation (with the 'DA_init_vis_dt__' function) and then free run(with the 'model_initss__' function). Jupyter notebook (Example_2) provides (small) example of how to run code. 'Run-script.py' provides a script which can be used to run the model on SLURM.
 
-Details of this version: 
+Details of this first version: 
 - base-version
 - 1D 
 - saves to netcdf files 
